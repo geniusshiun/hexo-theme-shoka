@@ -138,6 +138,7 @@ busuanzi_count:
   total_visitors: true
   total_views: true
   post_views: true
+  post_footer: true
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
