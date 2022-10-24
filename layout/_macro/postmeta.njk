@@ -32,13 +32,13 @@
   </span>
   {%- endif %} 
   {%- if not is_index and theme.busuanzi_count.enable and theme.busuanzi_count.post_views %}
-    <span class="post-meta-item" title="{{ __('post.views') }}" id="busuanzi_container_page_pv">
+    <span class="post-meta-item" title="{{ __('post.views') }}" id="busuanzi_container_page_pv" style="display:none;">
       <span> </span>
       <span class="post-meta-item-icon">
         <i class="ic i-eye"></i>
       </span>
-       {%- if full %}
-      <span class="text">{{ __('post.views')}</span>
+      {%- if full %}
+      <span class="text">{{ __('post.views')}}</span>
       {%- endif %}
       <span id="busuanzi_value_page_pv"></span> {{ __('symbols_count_time.view') }}
     </span>
