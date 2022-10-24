@@ -129,6 +129,7 @@ symbols_count_time:
   time_minutes: 分鐘
   word: 字
   view: 次
+  person: 人
 
 tips:
   copyright: "複製成功，轉載請遵守 %s 協議。"
